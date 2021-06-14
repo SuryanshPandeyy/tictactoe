@@ -1,8 +1,9 @@
-import React from "react";
-
+import React from "react"
+import Board from "./components/Board"
+import './components/root.scss'
 export default () => (
   <>
-    <h1>Welcome to React Parcel Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
+    <h1>Tic Tac Toe Game</h1>
+    <Board />
   </>
 );
