@@ -4,7 +4,7 @@ import History from "./History";
 import './components/root.scss';
 import { calculateWinner } from "./Winner";
 
-export default () => {
+const App = () => {
   const [history, sethistory] = useState([
     {board: Array(9).fill(null), isXnext: true}
   ]);
@@ -50,3 +50,5 @@ const moveTo = (move) => {
     </>
   )
 };
+
+export default App;
